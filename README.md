@@ -2,6 +2,7 @@
 # Run and deploy
 
 This contains everything you need to run your app locally.
+https://manishkumar09.netlify.app/
 
 ## Run Locally
 
