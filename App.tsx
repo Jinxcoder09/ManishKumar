@@ -122,7 +122,7 @@ const App: React.FC = () => {
             </div>
           </div>
 
-          <h1 className="font-syne text-[clamp(32px,10vw,140px)] leading-[0.85] tracking-tighter font-extrabold text-white animate-hero-title mb-8 select-none">
+          <h1 className="font-syne text-[clamp(28px,7vw,90px)] leading-[0.85] tracking-tighter font-extrabold text-white animate-hero-title mb-8 select-none">
             BUILDING<br />
             <span className="text-transparent stroke-text opacity-40 hover:opacity-100 hover:text-brand-accent transition-all duration-500 cursor-default hover:neon-shadow-text">ACCESSIBLE</span><br />
             INTELLIGENCE
