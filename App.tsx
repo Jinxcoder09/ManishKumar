@@ -36,12 +36,12 @@ const PROJECTS: Project[] = [
   },
   {
     id: '03',
-    kicker: 'Infrastructure',
-    title: 'Vision AI Intelligence',
-    description: 'Scalable scene intelligence microservices. Features high-concurrency processing and automated robot decision logic.',
+    kicker: 'AI Career Platform',
+    title: 'JobX — AI Resume Builder',
+    description: 'An intelligent resume building platform powered by FastAPI and Groq AI. Features ATS optimization, smart suggestions, and 12 professional templates with real-time scoring.',
     mediaUrl: 'https://media.giphy.com/media/9CRHuaaOJwcIo/giphy.gif',
     type: 'image',
-    stack: ['Docker', 'PostgreSQL', 'Microservices', 'PyTorch']
+    stack: ['Python', 'FastAPI', 'React', 'MongoDB', 'Groq AI']
   }
 ];
 
@@ -395,7 +395,7 @@ const ProjectDetailPage: React.FC<{ project: Project, onBack: (e: React.MouseEve
                 </div>
               </div>
 
-              <a href="#" className="w-full flex items-center justify-between p-6 rounded-2xl bg-brand-accent text-brand-dark font-black tracking-widest text-[11px] uppercase shadow-neon hover:scale-[1.03] transition-all">
+              <a href="https://jobx-delta.vercel.app" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-between p-6 rounded-2xl bg-brand-accent text-brand-dark font-black tracking-widest text-[11px] uppercase shadow-neon hover:scale-[1.03] transition-all">
                  Live Demo <Globe size={18} />
               </a>
             </div>
@@ -406,7 +406,7 @@ const ProjectDetailPage: React.FC<{ project: Project, onBack: (e: React.MouseEve
                  <div className="w-16 h-16 rounded-2xl bg-white/5 border border-brand-border flex items-center justify-center text-brand-accent group-hover:shadow-neon transition-all">
                     <ChevronRight size={24} />
                  </div>
-                 <span className="text-lg font-bold group-hover:text-brand-accent transition-colors">Vision AI Intelligence</span>
+                 <span className="text-lg font-bold group-hover:text-brand-accent transition-colors">Eyeva — AI Assistive Platform</span>
               </div>
             </div>
           </div>
